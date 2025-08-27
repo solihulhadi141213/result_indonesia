@@ -13,7 +13,7 @@
         exit();
     }
 
-    // Cek Sesi x-token
+    // Cek Sesi x-token Apakah ada
     if (empty($_SESSION['x-token'])) {
         $generate_x_token = generate_x_token($base_url, $user_key, $access_key);
         $generate_x_token_arry = json_decode($generate_x_token, true);

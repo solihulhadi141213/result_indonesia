@@ -13,7 +13,7 @@
         exit();
     }
 
-    //Cek Sesi x-token
+    //Cek Sesi x-token apakah ada
     if(empty($_SESSION['x-token'])){
         
         //Jika belum maka buat/generate
