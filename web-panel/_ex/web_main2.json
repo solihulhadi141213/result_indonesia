@@ -1,0 +1,215 @@
+{
+    "hero": [
+        {
+            "image": "d358908d5211f38ef3551ba1fd1d5fc66e25.png",
+            "order": 1,
+            "title": "Bercerita Dengan Data",
+            "button": {
+                "button_url": "",
+                "show_button": false,
+                "button_label": ""
+            },
+            "sub_title": "Result Indonesia"
+        },
+        {
+            "image": "198c56ff3ed8508ec3b36bd10539a50b4537.png",
+            "order": 2,
+            "title": "Data Bukan Sekedar Angka",
+            "button": {
+                "button_url": "",
+                "show_button": false,
+                "button_label": ""
+            },
+            "sub_title": "Tetapi fondasi untuk keputusan yang tepat"
+        }
+    ],
+    "menu": [
+        {
+            "url": "http://localhost/result_indonesia/web-panel/",
+            "label": "Beranda",
+            "order": 1,
+            "submenu": []
+        },
+        {
+            "url": "http://localhost/result_indonesia/web-panel/Blog",
+            "label": "Blog",
+            "order": 2,
+            "submenu": []
+        },
+        {
+            "url": "http://localhost/result_indonesia/web-panel/Blog",
+            "label": "Berita",
+            "order": 3,
+            "submenu": []
+        }
+    ],
+    "alamat": {
+        "title": "Alamat",
+        "value": "Jalan RE Martadinata No 128 Kelurahan Ancaran, Kecamatan Kuningan, Kabupaten Kuningan, Jawa Barat."
+    },
+    "kontak": {
+        "list": [
+            {
+                "icon": "<i class=\"bi bi-telephone me-2\"></i>",
+                "order": 1,
+                "value": "(021) 25502606"
+            },
+            {
+                "icon": "<i class=\"bi bi-envelope-arrow-down\"></i>",
+                "order": 2,
+                "value": "admin@resultindonesia.org"
+            },
+            {
+                "icon": "<i class=\"bi bi-pin-map\"></i>",
+                "order": 3,
+                "value": "Jakarta"
+            }
+        ],
+        "title": "Contact Us"
+    },
+    "navbar": {
+        "title": "Result Indonesia",
+        "logo-image": "aa63c93eb3c169cf7dcee91f39bf68540676.png"
+    },
+    "favicon": {
+        "16x16": "favicon-16x16.png",
+        "32x32": "favicon-32x32.png",
+        "180x180": "apple-touch-icon.png",
+        "manifest": "site.webmanifest"
+    },
+    "meta_tag": {
+        "type": "website",
+        "title": "Result Indoneisa",
+        "author": "Findi Firmanliansyah",
+        "robots": "index, follow",
+        "base_url": "http://localhost/result_indonesia/web-panel",
+        "keywords": "Result Indoneisa, Lembaga Survey, Penelitian, Indonesia",
+        "og-image": "2dc24f25d3e207954a8565f6e363de3457ef.png",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "logo-image": "ef2e5b92ef702156c076d4c1583a78754b16.png",
+        "description": "Kami membangun Result Indonesia pada tahun 2017 dengan cita-cita untuk memperkuat pengumpulan data dan design monitoring dan evaluasi di Indonesia. Walaupun masih tergolong baru, tetapi staf kami terdiri dari orang-orang yang telah berkecimpung sangat lama di bidang penelitian dan monitoring dan evaluasi di Indonesia."
+    },
+    "visi_misi": {
+        "misi": "<ol>\r\n<li>Memberikan pelayanan kesehatan yang berkualitas sesuai dengan syariat islami.</li>\r\n<li>Ikut berperan serta dalam kegiatan sosial kemasyarakatan dan berperan serta dalam pembangunan daerah.</li>\r\n</ol>",
+        "visi": "Melayani masyarakat dalam memperoleh haknya untuk mendapatkan pelayanan kesehatan yang berkualitas sesuai moto rumah sakit : Etis, Logis, Sabar, Yakin, Islami, Fitrah, Amanah",
+        "motto": "Etis, Logis, Sabar, Yakin, Islami, Fitrah, Amanah",
+        "title": "Visi Dan Misi"
+    },
+    "google_map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15841.503739745505!2d108.5106989!3d-6.9649018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1756c44a7a4d%3A0x3894739e0e4f9396!2sGrand%20Amelia%20Kuningan!5e0!3m2!1sen!2sid!4v1755691913402!5m2!1sen!2sid",
+        "class": "mb-0",
+        "style": "border:0;",
+        "width": "100%",
+        "height": "350",
+        "loading": "lazy",
+        "referrerpolicy": "no-referrer-when-downgrade",
+        "allowfullscreen": ""
+    },
+    "info_grafis": {
+        "title": "Info Grafis",
+        "bg_image": "c7f9587bb974603a4ba4cdb1c0ec22e1e335.png",
+        "list_content": [
+            {
+                "icon": "<i class=\"bi bi-person-lines-fill\"></i>",
+                "name": "Pasien",
+                "count": 1000
+            },
+            {
+                "icon": "<i class=\"bi bi-person\"></i>",
+                "name": "Kunjungan",
+                "count": 1500
+            },
+            {
+                "icon": "<i class=\"bi bi-person\"></i>",
+                "name": "Radiologi",
+                "count": 2500
+            },
+            {
+                "icon": "<i class=\"bi bi-person\"></i>",
+                "name": "Laboratorium",
+                "count": 3500
+            }
+        ]
+    },
+    "media_sosial": {
+        "list": [
+            {
+                "url": "https://www.facebook.com",
+                "icon": "<i class=\"bi bi-facebook\"></i>",
+                "order": 1
+            },
+            {
+                "url": "https://www.youtube.com",
+                "icon": "<i class=\"bi bi-youtube\"></i>",
+                "order": 2
+            },
+            {
+                "url": "https://www.instagram.com",
+                "icon": "<i class=\"bi bi-instagram\"></i>",
+                "order": 3
+            },
+            {
+                "url": "https://www.threads.com",
+                "icon": "<i class=\"bi bi-threads\"></i>",
+                "order": 4
+            },
+            {
+                "url": "https://www.whatsapp.com",
+                "icon": "<i class=\"bi bi-whatsapp\"></i>",
+                "order": 5
+            },
+            {
+                "url": "https://x.com/XDevelopers",
+                "icon": "<i class=\"bi bi-twitter-x\"></i>",
+                "order": 6
+            }
+        ],
+        "title": "Media Sosial"
+    },
+    "berita_artikel": {
+        "limit": 8,
+        "title": "Berita &amp; Artikel",
+        "subtitle": "Berikut ini kumpulan berita dan artikel terbaru yang perlu anda ketahui"
+    },
+    "tautan_lainnya": {
+        "list": [
+            {
+                "url": "http://localhost/result_indonesia/admin-panel/index.php?Page=TautanLain",
+                "label": "Hubungi Kami",
+                "order": 1,
+                "target": "_blank"
+            },
+            {
+                "url": "/faq",
+                "label": "FAQ",
+                "order": 2,
+                "target": "_blank"
+            },
+            {
+                "url": "/Syarat-Ketentuan",
+                "label": "Syarat & Ketentuan",
+                "order": 3,
+                "target": "_blank"
+            },
+            {
+                "url": "/kebijakan-privasi",
+                "label": "Kebijakan Privasi",
+                "order": 4,
+                "target": "_blank"
+            },
+            {
+                "url": "/peta-situs",
+                "label": "Peta Situs",
+                "order": 5,
+                "target": "_blank"
+            },
+            {
+                "url": "https://chatgpt.com/c/68a4a643-84b8-8323-ae60-b5daaafe7571",
+                "label": "Chat GPT",
+                "order": 6,
+                "target": "_blank"
+            }
+        ],
+        "title": "Tautan Lainnya"
+    }
+}

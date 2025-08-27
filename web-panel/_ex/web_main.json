@@ -1,0 +1,232 @@
+{
+    "hero": [
+        {
+            "image": "f98d3bedd022d456d65b858a7fca3a1a9225.png",
+            "order": "1",
+            "title": "Selamat Datang Di",
+            "button": {
+                "button_url": "",
+                "show_button": false,
+                "button_label": ""
+            },
+            "sub_title": "Website Resmi Jatman Jabar"
+        },
+        {
+            "image": "f98d3bedd022d456d65b858a7fca3a1a9225.png",
+            "order": "2",
+            "title": "Bergabung Dengan Jatman Jabar",
+            "button": {
+                "button_url": "/Daftar",
+                "show_button": true,
+                "button_label": "Bergabung"
+            },
+            "sub_title": "Isi Form Pendaftaran Pada Link Berikut Ini"
+        },
+        {
+            "image": "f98d3bedd022d456d65b858a7fca3a1a9225.png",
+            "order": "3",
+            "title": "Berita Dan Artikel",
+            "button": {
+                "button_url": "/Artikel",
+                "show_button": true,
+                "button_label": "Baca Berita"
+            },
+            "sub_title": "Baca Berita Dan Artikel Terbaru"
+        }
+    ],
+    "menu": [
+        {
+            "url": "index.php",
+            "label": "Beranda",
+            "order": 1,
+            "submenu": []
+        },
+        {
+            "url": "/Blog",
+            "label": "Blog",
+            "order": 2,
+            "submenu": []
+        },
+        {
+            "url": "/Tentang",
+            "label": "Tentang",
+            "order": 3,
+            "submenu": [
+                {
+                    "url": "/Tentang",
+                    "label": "Visi Dan Misi",
+                    "order": 1
+                },
+                {
+                    "url": "/kontak-lokasi",
+                    "label": "Kontak & Lokasi",
+                    "order": 2
+                }
+            ]
+        }
+    ],
+    "alamat": {
+        "title": "Alamat",
+        "value": "Jalan RE Martadinata No 128 Kelurahan Ancaran, Kecamatan Kuningan, Kabupaten Kuningan, Jawa Barat."
+    },
+    "kontak": {
+        "list": [
+            {
+                "icon": "<i class='bi bi-telephone me-2'></i>",
+                "order": 1,
+                "value": "(0232) 1234567"
+            },
+            {
+                "icon": "<i class='bi bi-whatsapp me-2'></i>",
+                "order": 1,
+                "value": "0812 3456 7890"
+            },
+            {
+                "icon": "<i class='bi bi-envelope me-2'></i>",
+                "order": 1,
+                "value": "info@rsuelsyifa.co.id"
+            }
+        ],
+        "title": "Kontak"
+    },
+    "navbar": {
+        "title": "Jatman Jabar",
+        "logo-image": "b50c7d05f32a69bb65bc5cfd4c1c0364da23.png"
+    },
+    "favicon": {
+        "16x16": "favicon-16x16.png",
+        "32x32": "favicon-32x32.png",
+        "180x180": "apple-touch-icon.png",
+        "manifest": "site.webmanifest"
+    },
+    "meta_tag": {
+        "type": "website",
+        "title": "Jatman Jabar",
+        "author": "Solihul Hadi",
+        "robots": "index, follow",
+        "base_url": "http://localhost/jatman/web-panel/",
+        "keywords": "RSU, RS, RSU El-Syifa, RSEl-Syifa, Elsyifa, RS Elsyifa, RS El-Syifa, Kuningan, Kabupaten Kuningan, Kab. Kuningan",
+        "og-image": "671032faa36174c9aa59f34638da4409599c.png",
+        "viewport": "width=device-width, initial-scale=1.0",
+        "logo-image": "f511c7d1fc8ff2870340a00b71abdc9d436f.png",
+        "description": "Rumah Sakit Umum El-Syifa Kuningan, Kabupaten Kuningan. Memberikan pelayanan kesehatan yang profesional dan terpercaya."
+    },
+    "visi_misi": {
+        "misi": "<ol>\n    <li>Memberikan pelayanan kesehatan yang berkualitas sesuai dengan syariat islami.</li>\n    <li>Ikut berperan serta dalam kegiatan sosial kemasyarakatan dan berperan serta dalam pembangunan daerah.</li>\n</ol>",
+        "visi": "Melayani masyarakat dalam memperoleh haknya untuk mendapatkan pelayanan kesehatan yang berkualitas sesuai moto rumah sakit : Etis, Logis, Sabar, Yakin, Islami, Fitrah, Amanah",
+        "motto": "Etis, Logis, Sabar, Yakin, Islami, Fitrah, Amanah",
+        "title": "Visi Dan Misi"
+    },
+    "google_map": {
+        "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3111552771284!2d108.5199406!3d-6.9725692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f16aaf953c4bb%3A0xa0edc117fc5e90b7!2sRS%20EL-SYIFA%20KUNINGAN!5e0!3m2!1sen!2sid!4v1746967246290!5m2!1sen!2sid",
+        "class": "mb-0",
+        "style": "border:0;",
+        "width": "100%",
+        "height": "350",
+        "loading": "lazy",
+        "referrerpolicy": "no-referrer-when-downgrade",
+        "allowfullscreen": ""
+    },
+    "info_grafis": {
+        "title": "Info Grafis",
+        "bg_image": "c7f9587bb974603a4ba4cdb1c0ec22e1e335.png",
+        "list_content": [
+            {
+                "icon": "<i class=\"bi bi-person-lines-fill\"></i>",
+                "name": "Pasien",
+                "count": 1000
+            },
+            {
+                "icon": "<i class=\"bi bi-person\"></i>",
+                "name": "Kunjungan",
+                "count": 1500
+            },
+            {
+                "icon": "<i class=\"bi bi-person\"></i>",
+                "name": "Radiologi",
+                "count": 2500
+            },
+            {
+                "icon": "<i class=\"bi bi-person\"></i>",
+                "name": "Laboratorium",
+                "count": 3500
+            }
+        ]
+    },
+    "media_sosial": {
+        "list": [
+            {
+                "url": "https://www.facebook.com",
+                "icon": "<i class=\"bi bi-facebook\"></i>",
+                "order": 1
+            },
+            {
+                "url": "https://www.youtube.com",
+                "icon": "<i class=\"bi bi-youtube\"></i>",
+                "order": 2
+            },
+            {
+                "url": "https://www.instagram.com",
+                "icon": "<i class=\"bi bi-instagram\"></i>",
+                "order": 3
+            },
+            {
+                "url": "https://www.threads.com",
+                "icon": "<i class=\"bi bi-threads\"></i>",
+                "order": 4
+            },
+            {
+                "url": "https://www.whatsapp.com",
+                "icon": "<i class=\"bi bi-whatsapp\"></i>",
+                "order": 5
+            }
+        ],
+        "title": "Media Sosial"
+    },
+    "berita_artikel": {
+        "limit": 8,
+        "title": "Berita &amp; Artikel",
+        "subtitle": "Kumpulan berita terbaru dan artikel kesehatan yang perlu anda ketahui"
+    },
+    "tautan_lainnya": {
+        "list": [
+            {
+                "url": "/hubungi-kami",
+                "label": "Hubungi Kami",
+                "order": 1,
+                "target": "_blank"
+            },
+            {
+                "url": "/faq",
+                "label": "FAQ",
+                "order": 2,
+                "target": "_blank"
+            },
+            {
+                "url": "/Syarat-Ketentuan",
+                "label": "Syarat & Ketentuan",
+                "order": 3,
+                "target": "_blank"
+            },
+            {
+                "url": "/kebijakan-privasi",
+                "label": "Kebijakan Privasi",
+                "order": 4,
+                "target": "_blank"
+            },
+            {
+                "url": "/peta-situs",
+                "label": "Peta Situs",
+                "order": 5,
+                "target": "_blank"
+            },
+            {
+                "url": "www.youtube.com",
+                "label": "Youtube",
+                "order": 6,
+                "target": "_blank"
+            }
+        ],
+        "title": "Tautan Lainnya"
+    }
+}

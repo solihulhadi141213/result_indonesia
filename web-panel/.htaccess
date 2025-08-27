@@ -1,0 +1,40 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /result_indonesia/web-panel
+    
+    # 1. Izinkan akses langsung ke semua file assets (css, js, images, fonts)
+    RewriteCond %{REQUEST_URI} \.(css|js|jpg|jpeg|png|gif|webp|ico|svg|woff|woff2|ttf|eot)$ [NC]
+    RewriteRule ^ - [L]
+    
+    # 2. Izinkan akses ke file PHP spesifik
+    RewriteRule ^(index\.php|image_proxy\.php)$ - [L,NC]
+
+    # 2a. Izinkan akses ke semua file di dalam folder _Api
+    RewriteRule ^_Api/.*\.php$ - [L,NC]
+    
+    # 3. Blokir akses langsung ke folder tertentu
+    RewriteRule ^assets/(_Direktur|_Error)/ - [F,NC,L]
+    # Izinkan akses ke semua file PHP di dalam folder _Page/Home
+    RewriteRule ^_Page/Home/.*\.php$ - [L,NC]
+    # Izinkan akses ke semua file PHP di dalam folder _Page/Blog
+    RewriteRule ^_Page/Blog/.*\.php$ - [L,NC]
+    # Izinkan akses ke semua file PHP di dalam folder _Page/Dokter
+    RewriteRule ^_Page/Dokter/.*\.php$ - [L,NC]
+    # 4. Blokir akses ke file PHP lainnya, KECUALI dari _Api
+    RewriteCond %{REQUEST_URI} \.php$ [NC]
+    RewriteCond %{REQUEST_URI} !^/_Api/ [NC]
+    RewriteRule ^ - [F,L]
+    
+    # 5. Front controller untuk routing
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Blokir akses ke file sensitif
+<FilesMatch "\.(htaccess|env|log|sql|ini)$">
+    Require all denied
+</FilesMatch>
+
+# Nonaktifkan directory listing
+Options -Indexes

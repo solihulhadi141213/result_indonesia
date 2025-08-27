@@ -1,0 +1,22 @@
+[
+    {
+        "icon-order" : 1,
+        "icon-code" : "<i class='bi bi-0-circle'></i>",
+        "icon-name" : "0 circle"
+    },
+    {
+        "icon-order" : 2,
+        "icon-code" : "<i class='bi bi-0-circle-fill'></i>",
+        "icon-name" : "0 circle"
+    },
+    {
+        "icon-order" : 3,
+        "icon-code" : "<i class='bi bi-0-circle'></i>",
+        "icon-name" : "0 circle"
+    },
+    {
+        "icon-order" : 4,
+        "icon-code" : "<i class='bi bi-0-circle'></i>",
+        "icon-name" : "0 circle"
+    }
+]
